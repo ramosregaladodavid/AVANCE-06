@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yelina Suplementos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<header class="header">
+<div class="menu container">
+    <a href="index.html" class="logo">
+<img src="imagenes/logo1.png" alt="Yelina Suplementos" class="logo-img">
+</a>
+
+<input type="checkbox" id="menu"/>
+<label for="menu">
+    <img src="imagenes/hamburguesa.png" class="menu-icono" alt="proteina">
+</label>
+
+<nav class="navbar">
+<ul>
+    <li> <a href="Inicio.html">Inicio</a></li>
+    <li> <a href="Nosotros.html">Nosotros</a></li>
+    <li> <a href="Productos.html">Productos</a></li>
+    <li> <a href="Contacto.html">Contacto</a></li>
+</ul>
+</nav>
+
+    <div>
+        <ul>
+            <li class="submenu">
+                <img src="imagenes/carritopeque.png" id="img-carrito" alt="carrito">
+                <div id="carrito">
+                    <table id="lista-carrito">
+                        <thead>
+                            <tr>
+                                <th>Imagen</th>
+                                <th>Nombre</th>
+                                <th>Precio</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+
+                        <tbody></tbody>
+                    </table>
+                    <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="header-content container">
+<div class="header-img">
+<img src="imagenes/central.jpeg" alt="foto-hombre">
+</div>
+
+<div class="header-txt">
+<h1>Ofertas Especiales</h1>
+<p>Consume los mejores suplementos</p>
+<a href="#" class="btn-1">Información</a>
+</div>
+</div>
+</header>
+
+<section class="ofert container">
+<div class="ofert-1">
+<div class="ofert-img">
+    <img src="imagenes/preentreno-premium-botella.jpg" alt="">
+</div>
+</div>
+<div class="ofert-txt">
+    <h3>Proteína concentrada</h3>
+<a href="#" class="btn-2">Información </a>
+</div>
+</div>
+<div class="ofert-1">
+<div class="ofert-img">
+    <img src="imagenes/proteinaconcentrada.jpg" alt="concentrada">
+</div>
+</div>
+<div class="ofert-txt">
+    <h3>Proteína aislada</h3>
+<a href="#" class="btn-2">Información b</a>
+</div>
+</div>
+<div class="ofert-1">
+<div class="ofert-img">
+    <img src="imagenes/proteinaaislada.jpg" alt="aislada">
+
+</div>
+</div>
+<div class="ofert-txt">
+    <h3>Proteína hidrolizada</h3>
+<a href="#" class="btn-2">Información c</a>
+</div>
+</div>
+<div class="ofert-1">
+<div class="ofert-img">
+    <img src="imagenes/proteinahidrolizada.jpg" alt="hidrolizada">
+</div>
+</div>
+</section>
+
+
+
+<main class="products container" id="lista-1">
+<h2>Productos</h2>
+<div class="product-content">
+
+<div class="product">
+<img src="imagenes/creatina.jpg" alt="creatina">
+<div class="product-txt">
+    <h3>Creatina</h3>
+    <p>Calidad premium</p>
+    <p class="precio">S/ 150.00</p>
+    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+</div>
+</div>
+
+<div class="product">
+<img src="imagenes/glutamina.jpg" alt="glutamina">
+<div class="product-txt">
+    <h3>Glutamina</h3>
+    <p>Calidad premium</p>
+    <p class="precio">S/ 350.00</p>
+    <a href="#" class="agregar-carrito btn-2" data-id="2">Agregar al carrito</a>
+</div>
+</div>
+
+<div class="product">
+<img src="imagenes/preentreno.jpg" alt="preentreno">
+<div class="product-txt">
+    <h3>Preentreno</h3>
+    <p>Calidad premium</p>
+    <p class="precio">S/ 150.00</p>
+    <a href="#" class="agregar-carrito btn-2" data-id="3">Agregar al carrito</a>
+</div>
+</div>
+
+<div class="product">
+<img src="imagenes/multivitaminico.jpg" alt="vitamina">
+<div class="product-txt">
+    <h3>Multivitaminico</h3>
+    <p>Calidad premium</p>
+    <p class="precio">S/ 100.00</p>
+    <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar al carrito</a>
+</div>
+</div>
+
+<div class="product">
+<img src="imagenes/quemadorgrasa.jpg" alt="quemador">
+<div class="product-txt">
+    <h3>Quemador de grasa</h3>
+    <p>Calidad premium</p>
+    <p class="precio">S/ 200.00</p>
+    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+</div>
+</div>
+
+<div class="product">
+<img src="imagenes/maca.jpg" alt="maca">
+<div class="product-txt">
+    <h3>Maca plus</h3>
+    <p>Calidad premium</p>
+    <p class="precio">S/ 300.00</p>
+    <a href="#" class="agregar-carrito btn-2" data-id="6">Agregar al carrito</a>
+</div>
+</div>
+
+</div>
+</main>
+
+<section class="icons container">
+
+    <div class="icon-1">
+    <div class="icon-img">
+        <img src="imagenes/mancuerna.png" alt="">
+    </div>
+
+    <div class="icon-txt">
+        <h3>No olvides de revisar la sección de ofertas JERI</h3>
+        <p>Tenemos las mejores ofertas pensadas en ti, querido cliente peruano</p>
+    </div>
+</div>
+
+  <div class="icon-1">
+    <div class="icon-img">
+        <img src="imagenes/jaula.png" alt="">
+    </div>
+    <div class="icon-txt">
+        <h3>No olvides de revisar la sección de ofertas BORIC</h3>
+        <p>Tenemos las mejores ofertas pensadas en ti, querido cliente chileno</p>
+    </div>
+</div>
+
+  <div class="icon-1">
+    <div class="icon-img">
+        <img src="imagenes/banca.png"">
+    </div>
+    <div class="icon-txt">
+        <h3>No olvides de revisar la sección de ofertas MILEI</h3>
+        <p>Tenemos las mejores ofertas pensadas en ti, querido cliente argentino</p>
+    </div>
+</div>
+</section>
+
+<section class="blog container">
+
+    <div class="blog-1">
+    <img src="imagenes/lab nutrition.png" alt="">
+    <h3>Lab Nutrition</h3>
+    <p>Es hora de actualizar tus gains comprando los mejores productos para la ganancia de masa muscular al mejor precio en Perú</p>
+    </div>
+
+    <div class="blog-1">
+    <img src="imagenes/hx nutrition.jpg" alt="">
+    <h3>Hx Nutrition</h3>
+    <p>Es hora de actualizar tus gains comprando los mejores productos para la ganancia de masa muscular al mejor precio en Chile</p>
+    </div>
+
+    <div class="blog-1">
+    <img src="imagenes/optimum nutrititon.png" alt="">
+    <h3>Optimum Nutrition</h3>
+    <p>Es hora de actualizar tus gains comprando los mejores productos para la ganancia de masa muscular al mejor precio en Argentina</p>
+    </div>
+</section>
+
+<section class="video container">
+<h2>Alimentos ricos en proteinas</h2>
+<div class="video-wrapper">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/K7dOcwMUy2M" 
+title="Video de suplementos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+</div>
+</section>
+
+
+
+
+<section class="formulario container">
+<h2>Para > 10 productos contáctanos - descuentos y ofertas</h2>
+<form action="#" method="post">
+    <input type="text" name="nombre" placeholder="Nombre completo" required>
+    <input type="email" name="correo" placeholder="Correo electrónico" required>
+    <input type="tel" name="telefono" placeholder="Teléfono" required>
+    <textarea name="mensaje" placeholder="Escribe tu mensaje aquí..." rows="5" required></textarea>
+    <button type="submit" class="btn-1">Enviar</button>
+</form>
+</section>
+
+
+
+<footer class="footer">
+    <div class="footer-content container">
+
+        <div class="link">
+            <h3>Información</h3>
+            <ul>
+                <li><a href="#">Aviso legal</a></li>
+                <li><a href="#">Politica de cookies</a></li>
+                <li><a href="#">politica de privacidad</a></li>
+                <li><a href="#">Terminos y condiciones</a></li>
+            </ul>
+        </div>
+
+        <div class="link">
+            <h3>Extras</h3>
+            <ul>
+                <li><a href="#">Aminoacidos</a></li>
+                <li><a href="#">Grasas</a></li>
+                <li><a href="#">Carbohidratos</a></li>
+                <li><a href="#">Geles</a></li>
+            </ul>
+        </div>
+
+        <div class="contacto1">
+            <h3>Datos de contacto</h3>
+            <ul>
+                <li><strong>Dirección:</strong>Calle Pachacutec N° 356</li>
+                <li><strong>Ciudad:</strong>Lima</li>
+                <li><strong>Horario de atención:</strong>De 9:00 a.m. a 5:00 p.m.</li>
+                <li><strong>Teléfono:</strong>055-999999999</li>
+            </ul>
+        </div>
+
+        <div class="link">
+            <h3>Enlaces de interes</h3>
+            <ul>
+                <li><a href="#">Colabora con nosotros</a></li>
+                <li><a href="#">Entrenador personal</a></li>
+                <li><a href="#">Nutricionista</a></li>
+                <li><a href="#">Endocrinologo</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+</footer>
+
+<!-- Ventana Modal -->
+<div id="miModal" class="modal">
+  <div class="modal-contenido">
+    <span class="cerrar">&times;</span>
+    <h2>¡Oferta especial!</h2>
+    <p>Obtén un 20% de descuento en tu primera compra.</p>
+  </div>
+</div>
+
+<!-- Botón para abrir el modal -->
+<button id="abrirModal" class="btn-1">Ver Oferta</button>
+
+
+<button onclick="saludoInteractivo()" class="btn-1">Ver Oferta</button>
+
+<section class="audio container">
+  <h2>Testimonio de cliente</h2>
+  <audio controls>
+    <source src="audios/testimonio.mp3" type="audio/mpeg">
+    Tu navegador no soporta audio HTML5.
+  </audio>
+</section>
+
+<!-- Ícono SVG de carrito -->
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#111" viewBox="0 0 24 24">
+  <path d="M7 18c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2zm10 0c-1.104 
+  0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2zm-12.293-2.707l1.414 1.414 
+  1.293-1.293h9.586l1.293 1.293 1.414-1.414-1.707-1.707h-10.586l-1.707 
+  1.707z"/>
+</svg>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
